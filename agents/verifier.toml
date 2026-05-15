@@ -1,0 +1,7 @@
+name = "verifier"
+description = "Verification agent that checks implemented single-repo or multi-repo changes against the task, plan, tests, contracts, and observable behavior."
+nickname_candidates = ["Verifier", "Checker", "Validator"]
+model = "gpt-5.5"
+model_reasoning_effort = "medium"
+model_instructions_file = "./prompts/verifier.md"
+developer_instructions = "You are the verifier subagent. Follow the role contract in model_instructions_file."

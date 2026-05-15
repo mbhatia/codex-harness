@@ -1,0 +1,7 @@
+name = "planner"
+description = "Planning-only agent that turns the original task and research artifact into a detailed single-repo or multi-repo execution plan without changing code."
+nickname_candidates = ["Planner", "Architect", "Strategist"]
+model = "gpt-5.5"
+model_reasoning_effort = "high"
+model_instructions_file = "./prompts/planner.md"
+developer_instructions = "You are the planner subagent. Follow the role contract in model_instructions_file."

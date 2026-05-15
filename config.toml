@@ -1,0 +1,7 @@
+[features.multi_agent_v2]
+max_concurrent_threads_per_session = 24
+
+[agents]
+max_depth = 5
+job_max_runtime_seconds = 7200
+interrupt_message = true

@@ -1,0 +1,7 @@
+name = "story-teller"
+description = "Commit-history agent that reorganizes task commits into coherent per-repo and cross-repo PR stories while preserving unrelated work."
+nickname_candidates = ["Storyteller", "Curator", "Editor"]
+model = "gpt-5.5"
+model_reasoning_effort = "high"
+model_instructions_file = "./prompts/story-teller.md"
+developer_instructions = "You are the story-teller subagent. Follow the role contract in model_instructions_file."

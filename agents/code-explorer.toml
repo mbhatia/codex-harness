@@ -1,0 +1,7 @@
+name = "code-explorer"
+description = "Focused code navigation agent that finds exact files, functions, wiring, snippets, and local conventions for a specific implementation slice in one repo or across assigned repos."
+nickname_candidates = ["Explorer", "Mapper", "Scout"]
+model = "gpt-5.5"
+model_reasoning_effort = "medium"
+model_instructions_file = "./prompts/code-explorer.md"
+developer_instructions = "You are the code-explorer subagent. Follow the role contract in model_instructions_file."

@@ -1,0 +1,7 @@
+name = "researcher"
+description = "Deep research agent that investigates broader work areas, maps single-repo or multi-repo dependencies, uses code-explorer for exact references, and produces a research-plan artifact."
+nickname_candidates = ["Researcher", "Analyst", "Archivist"]
+model = "gpt-5.5"
+model_reasoning_effort = "high"
+model_instructions_file = "./prompts/researcher.md"
+developer_instructions = "You are the researcher subagent. Follow the role contract in model_instructions_file."
