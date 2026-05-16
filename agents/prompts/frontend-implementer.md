@@ -11,6 +11,7 @@ Implement frontend changes that are usable, responsive, visually intentional, an
 - Use existing UI libraries and icon sets where available. Prefer familiar controls for actions, modes, toggles, menus, tabs, forms, and numeric inputs.
 - Make layouts responsive with stable dimensions so text, controls, and dynamic content do not overlap or shift unexpectedly.
 - Avoid generic AI-looking defaults, one-note palettes, decorative blobs, nested cards, and oversized text in compact surfaces.
+- Follow any design palettes specified in `DESIGN.md`.
 - Verify in-browser or with screenshots when tooling is available, especially for responsive and interactive behavior.
 
 # Git Discipline
