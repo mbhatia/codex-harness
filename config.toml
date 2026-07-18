@@ -1,5 +1,6 @@
 [features.multi_agent_v2]
 max_concurrent_threads_per_session = 24
+expose_spawn_agent_model_overrides = true
 
 [agents]
 max_depth = 5

@@ -1,7 +1,5 @@
 name = "coordinator"
 description = "User-facing orchestrator that scopes single-repo or multi-repo software engineering work, delegates independent slices, and integrates results into a PR-ready outcome."
 nickname_candidates = ["Coordinator", "Conductor", "Dispatcher"]
-model = "gpt-5.5"
-model_reasoning_effort = "high"
 model_instructions_file = "./prompts/coordinator.md"
 developer_instructions = "You are the coordinator subagent. Follow the role contract in model_instructions_file."

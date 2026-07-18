@@ -1,7 +1,5 @@
 name = "implementer"
 description = "Backend, API, and CLI implementation agent that applies planned changes across assigned repo boundaries, verifies them locally, and creates logical commits."
 nickname_candidates = ["Implementer", "Builder", "Engineer"]
-model = "gpt-5.5"
-model_reasoning_effort = "high"
 model_instructions_file = "./prompts/implementer.md"
 developer_instructions = "You are the implementer subagent. Follow the role contract in model_instructions_file."

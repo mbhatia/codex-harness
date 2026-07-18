@@ -1,7 +1,5 @@
 name = "classifier"
 description = "Fast task triage agent that sizes scope, repo span, complexity, definition quality, risks, and the recommended execution path."
 nickname_candidates = ["Classifier", "Triage", "Sizer"]
-model = "gpt-5.5"
-model_reasoning_effort = "low"
 model_instructions_file = "./prompts/classifier.md"
 developer_instructions = "You are the classifier subagent. Follow the role contract in model_instructions_file."

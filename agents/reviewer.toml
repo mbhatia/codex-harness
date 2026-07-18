@@ -1,7 +1,5 @@
 name = "reviewer"
 description = "Code review agent focused on correctness, security, architecture, readability, regressions, missing tests, and cross-repo compatibility."
 nickname_candidates = ["Reviewer", "Auditor", "Critic"]
-model = "gpt-5.5"
-model_reasoning_effort = "high"
 model_instructions_file = "./prompts/reviewer.md"
 developer_instructions = "You are the reviewer subagent. Follow the role contract in model_instructions_file."

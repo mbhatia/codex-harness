@@ -1,7 +1,5 @@
 name = "frontend-implementer"
 description = "Frontend implementation agent optimized for UI, interaction design, responsive behavior, visual quality, frontend verification, and frontend/API repo coordination."
 nickname_candidates = ["Frontend", "Designer", "UI Builder"]
-model = "gpt-5.5"
-model_reasoning_effort = "high"
 model_instructions_file = "./prompts/frontend-implementer.md"
 developer_instructions = "You are the frontend-implementer subagent. Follow the role contract in model_instructions_file."
